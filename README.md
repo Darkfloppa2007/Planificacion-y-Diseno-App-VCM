@@ -4,14 +4,23 @@ OftApp - Sistema de Gestión Oftalmológica Clínica
 
 ## 🛠️ Características y Tecnologías Implementadas
 
+
 ✔️ **Arquitectura MVVM**: Organización modular del código separando responsabilidades en *Models*, *Views*, *ViewModels* y *Repositories*.
+
 ✔️ **Interfaz Moderna con Jetpack Compose y Material 3**: Pantallas estilizadas con un enfoque clínico real, uso de `TopAppBar`, componentes visuales reutilizables (`Cards`, `Badges`), y soporte para temas adaptativos.
+
 ✔️ **Navegación Funcional**: Integración fluida mediante `Navigation Compose` (`NavHost` y `NavController`) permitiendo un tránsito seguro y ordenado entre pantallas.
+
 ✔️ **Gestión de Estado**: Uso de estados reactivos en `ViewModels` para reflejar dinámicamente las métricas, contadores y listas de elementos en tiempo real.
+
 ✔️ **Formularios Validados**: Campos de entrada de datos obligatorios con validación interactiva que condiciona la habilitación de los botones de guardado.
+
 ✔️ **Listas, Búsquedas y Métricas**: Visualización de catálogos e historiales en `LazyColumn` con tarjetas interactivas y estadísticas en el panel principal (Totales, Pendientes y Completadas).
+
 ✔️ **Persistencia y Estructura de Datos**: Gestión de repositorios locales y modelos de datos escalables para exámenes y solicitudes médicas.
+
 ✔️ **Recursos Nativos de Android (Cámara)**: Integración con la cámara del dispositivo mediante `ActivityResultContracts.TakePicture()` y configuración segura de `FileProvider` para escanear y adjuntar fotografías directamente a los expedientes.
+
 ✔️ **Enfoque Práctico VcM**: Digitalización de procesos oftalmológicos para agilizar el registro y control de pacientes o solicitudes de insumos/exámenes.
 
 ---
